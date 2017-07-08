@@ -2,8 +2,8 @@ class StopWatch {
   constructor(DomElement) {
     this.DomElement = DomElement;
     this.value = 0;
-    this.pause = this.pause.bind(this);
     this.start = this.start.bind(this);
+    this.pause = this.pause.bind(this);
     this.stop = this.stop.bind(this);
     this.tick = this.tick.bind(this);
     this.timerId = null;

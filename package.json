@@ -4,8 +4,7 @@
   "description": "test task watch",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "babel": "babel src --out-dir dist --source-maps inline"
+    "test": ""
   },
   "author": "pavel223",
   "license": "ISC",
